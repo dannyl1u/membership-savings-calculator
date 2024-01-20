@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.92c97f09.css",
-    "main.js": "/static/js/main.a7f1ab3c.js",
-    "static/js/787.f31b23d6.chunk.js": "/static/js/787.f31b23d6.chunk.js",
-    "index.html": "/index.html",
-    "main.92c97f09.css.map": "/static/css/main.92c97f09.css.map",
-    "main.a7f1ab3c.js.map": "/static/js/main.a7f1ab3c.js.map",
-    "787.f31b23d6.chunk.js.map": "/static/js/787.f31b23d6.chunk.js.map"
+    "main.css": "/dannyl1u/membership-savings-calculator/static/css/main.92c97f09.css",
+    "main.js": "/dannyl1u/membership-savings-calculator/static/js/main.c5c6a6d5.js",
+    "static/js/787.9fcf1ada.chunk.js": "/dannyl1u/membership-savings-calculator/static/js/787.9fcf1ada.chunk.js",
+    "index.html": "/dannyl1u/membership-savings-calculator/index.html",
+    "main.92c97f09.css.map": "/dannyl1u/membership-savings-calculator/static/css/main.92c97f09.css.map",
+    "main.c5c6a6d5.js.map": "/dannyl1u/membership-savings-calculator/static/js/main.c5c6a6d5.js.map",
+    "787.9fcf1ada.chunk.js.map": "/dannyl1u/membership-savings-calculator/static/js/787.9fcf1ada.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.92c97f09.css",
-    "static/js/main.a7f1ab3c.js"
+    "static/js/main.c5c6a6d5.js"
   ]
 }
