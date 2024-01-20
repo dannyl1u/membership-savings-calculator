@@ -25,7 +25,6 @@ function App() {
   }
 
   return (
-
     <div className='container mt-4'>
       <h2>Membership cost savings calculator</h2>
       <p>

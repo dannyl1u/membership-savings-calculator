@@ -9,6 +9,10 @@ const Counter = ({ count, setCount }) => {
     setCount(Math.max(0, count - 1)); // Prevents the count from going below 0
   };
 
+  const handleInputChange = (e) => {
+    setCount(e.target.value);
+  }
+
   return (
     <div className="container mt-4">
       <div className="row align-items-center">
@@ -16,9 +20,11 @@ const Counter = ({ count, setCount }) => {
           Number of days on pass:
         </div>
         <div className="col-2">
-          <button onClick={decrement}>-</button>
-          <span style={{ margin: "0 10px" }}>{count}</span>
-          <button onClick={increment}>+</button>
+          <div className="d-flex align-items-center">
+            <button type="button" className="btn btn-danger me-2" onClick={decrement}>-</button>
+            <input type="number" className="form-control" onChange={handleInputChange} value={count} />
+            <button type="button" className="btn btn-success ms-2" onClick={increment}>+</button>
+          </div>
         </div>
       </div>
     </div>
